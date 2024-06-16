@@ -150,7 +150,7 @@ export default function App() {
         <MDBCollapse navbar open={openNavRight} className='justify-content-end'>
           <MDBNavbarNav className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk-advisory' active aria-current='page' style={{ color: scrolling ? 'white' : 'white' }} >
+              <MDBNavbarLink href='/tail-talk-AI' active aria-current='page' style={{ color: scrolling ? 'white' : 'white' }} >
               {/* <MDBNavbarLink href='/tail-talk' active={activeLink === 'Home'} onClick={() => handleLinkClick('Home')} className={activeLink === 'Home' ? 'navbar-link-active' : 'white'}> */}
 
                 Home
@@ -158,12 +158,12 @@ export default function App() {
             </MDBNavbarItem>
             {/* Add other navbar items here */}
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk-advisory/#/AI'  aria-current='page' style={{ color: scrolling ? 'white' : 'white' } }>
+              <MDBNavbarLink href='/tail-talk-AI/#/AI'  aria-current='page' style={{ color: scrolling ? 'white' : 'white' } }>
                 Try our AI
              </MDBNavbarLink>
             </MDBNavbarItem>
            <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk-advisory/#/data' style={{ color: scrolling ? 'white' : 'white' }}>
+              <MDBNavbarLink href='/tail-talk-AI/#/data' style={{ color: scrolling ? 'white' : 'white' }}>
                 Data
               </MDBNavbarLink>
              </MDBNavbarItem>
@@ -174,20 +174,20 @@ export default function App() {
                   Approach
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link href='/tail-talk-advisory/#/LLM'>LLMs</MDBDropdownItem>
-                  <MDBDropdownItem link href='/tail-talk-advisory/#/RAG'>RAG</MDBDropdownItem>
+                  <MDBDropdownItem link href='/tail-talk-AI/#/LLM'>LLMs</MDBDropdownItem>
+                  <MDBDropdownItem link href='/tail-talk-AI/#/RAG'>RAG</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk-advisory/#/Analysis' style={{ color: 'white' }}>
+              <MDBNavbarLink href='/tail-talk-AI/#/Analysis' style={{ color: 'white' }}>
                 Analysis
               </MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href='/tail-talk-advisory/#/Team' style={{ color: 'white' }}>
+              <MDBNavbarLink href='/tail-talk-AI/#/Team' style={{ color: 'white' }}>
                 Team
               </MDBNavbarLink>
             </MDBNavbarItem>

@@ -31,7 +31,7 @@ const Home = () => {
 
       <ul className="social">
                 <li className="button btn project-btn">
-                  <a href="/tail-talk-advisory/#/AI">
+                  <a href="/tail-talk-AI/#/AI">
                     <b>Chat Now</b> &nbsp;
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
@@ -53,6 +53,12 @@ const Home = () => {
         However, it's important to note that while our chatbot can offer insights and suggestions based on common knowledge and experiences, we do not claim to be medical professionals. We strongly advise pet owners to seek a second opinion from a qualified veterinary professional for any concerns regarding their pets' health or behavior. Our ultimate goal is to empower pet parents and young veterinary professionals with reliable resources while prioritizing the well-being and safety of our beloved animal companions.          </p>
     
       </div>
+
+       {/* Video Section */}
+      <div className='video'>
+      <iframe width="860" height="515" src="https://www.youtube.com/embed/pPJGnHU1uuA?si=Rq4fXjZhCYWwgBQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
 
     {/* About section */}
     <div className='about-container'>

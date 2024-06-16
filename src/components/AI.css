@@ -1,0 +1,45 @@
+/* AI.css */
+body {
+    background-image: url('../images/teamwork.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Change blue color to black */
+.ai-container {
+    color: black; /* Change text color to black */
+}
+
+/* Optionally, change the blue color to black in the chat window */
+.ai-container .chat-window {
+    background-color: black; /* Change chat window background color to black */
+}
+
+/* You can add more specific styles as needed */
+
+@media screen and (max-width: 768px) {
+    .ai-container {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+    
+    flowise-fullchatbot {
+        width: 100%; /* Set width to 100% for smaller screens */
+    }
+    
+    flowise-fullchatbot .chat-window {
+        max-height: 400px; /* Adjust max height for smaller screens */
+        height: auto; /* Set height to auto for smaller screens */
+        overflow-y: scroll; /* Enable vertical scrolling if needed */
+    }
+    
+    flowise-fullchatbot .chat-window .message-list {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    flowise-fullchatbot .chat-window .input-container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    /* You can further adjust other chat window elements as needed */
+}

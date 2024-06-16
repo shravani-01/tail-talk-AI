@@ -52,7 +52,7 @@ const Data = () => {
 
               <ul className="social">
                 <li className="button btn project-btn">
-                  <a href="#ourdata">
+                  <a href="https://drive.google.com/drive/folders/1TeX8z69E5RE9YJfrIKUjtWuRbPxPSYjm?usp=sharing">
                   <i class="fa-solid fa-database"></i>Data
                   </a>
                 </li>
@@ -62,12 +62,15 @@ const Data = () => {
           </div>
         </div>
 
-        <p className="scrolldown">
+        {/* <p className="scrolldown">
         {/* /tail-talk-advisory/#/data */}
-          <a className="smoothscroll" href="/tail-talk-advisory/#/data#ourdata">
+          {/* <a className="smoothscroll" href="/tail-talk-advisory/#/data#ourdata">
             <i className="fa-solid fa-circle-arrow-down"></i>
-          </a>
-        </p>
+          </a> */}
+          {/* <Link to="/tail-talk-advisory/#/data/#ourdata" className="smoothscroll">
+            <i className="fa-solid fa-circle-arrow-down"></i>
+        </Link>
+        </p> */} 
       </header>
 
       {/* overview section */}
@@ -242,7 +245,7 @@ const Data = () => {
                         </div>
                         <Collapse in={expandedItems.includes(2)}>
                             <div className="card-body">
-                                <p>The segmented text chunks are transformed into dense numerical representations, or embeddings, utilizing cutting-edge language models such as Hugging Face's 'intfloat/multilingual-e5-large'.</p>
+                                <p>The segmented text chunks are transformed into dense numerical representations, or embeddings, utilizing Open AI Embeddings.</p>
                             </div>
                         </Collapse>
                     </div>
@@ -270,7 +273,7 @@ const Data = () => {
                         </div>
                         <Collapse in={expandedItems.includes(4)}>
                             <div className="card-body">
-                                <p>Finally, the embeddings are organized into a vector database using FAISS, facilitating rapid similarity search and clustering for enhanced data exploration.</p>
+                                <p>Finally, the embeddings are organized into a Pinecone vector database, facilitating rapid similarity search and clustering for enhanced data exploration.</p>
                             </div>
                         </Collapse>
                     </div>

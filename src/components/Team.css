@@ -1,5 +1,5 @@
 .team-container {
-    background: url('../images/teamwork.jpeg') center center/cover no-repeat;
+    background: url('../images/team1.gif') center center/cover no-repeat;
     height: 86vh;
     width: 100%;
     display: flex;
@@ -44,31 +44,40 @@
 
 .teamintro {
     margin-top:20px;
-    margin-bottom:30px;
+    margin-bottom:20px;
+    margin-left:-80px;
 }
 
 .member{
-    height:10%;
+    height:5%;
+    margin-right: -170px;
+    /* margin-bottom: -100px; */
 } 
-
+.about-image {
+    transform: scale(0.8); /* Adjust the scale value as needed */
+    /* Add other styles if necessary */
+  }
+.about-card{
+    transform: scale(0.9);
+}  
 .shravaniimg{
-    width:50%;
-    height:40%;
-    margin-top: 20px;
+    width:30%;
+    height:30%;
+    margin-top: 10px;
 }
 .team-content {
     display: flex;
   }
   
   .team-card {
-    flex: 1 1 60%;
-    margin: 0px 20px;
+    flex: 1 1 50%;
+    margin: 0px 5px;
 
   }
   .team-header{
     text-align: center;
     color:white;
     margin-top:50px;
-    margin-bottom:20px;
+    margin-bottom:-50px;
     font-size: 60px;
   }
