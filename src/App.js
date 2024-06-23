@@ -8,6 +8,7 @@ import Home from './components/Home';
 import LLM from './components/LLM';
 import NavBar from './components/NavBar';
 import RAG from './components/RAG';
+import ScrollToTop from './components/ScrollToTop';
 import Team from './components/Team';
 
 
@@ -19,8 +20,9 @@ const App = () => {
          <Router > 
             <div className="app">
                 {/* <Navbarnew /> */}
+
                 <NavBar />
-                
+                <ScrollToTop />
                 <Routes >
                     <Route path="/" element={<Home />} />
                     <Route path="/AI" element= {<AI />} />                  
