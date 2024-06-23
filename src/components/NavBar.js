@@ -133,7 +133,7 @@ export default function App() {
   return (
     <MDBNavbar expand='lg' light={!scrolling} bgColor={scrolling ? 'dark' : 'transparent'} fixed='top'>
       <MDBContainer fluid>
-        <MDBNavbarBrand active aria-current='page' href='/tail-talk' style={{ color: scrolling ? 'white' : 'white' }} className='navbar-brand'>
+        <MDBNavbarBrand active aria-current='page' href='/tail-talk-AI' style={{ color: scrolling ? 'white' : 'white' }} className='navbar-brand'>
           <i class="fa-solid fa-paw fa-0.5x"></i>
           &nbsp;
           <b><i>Tail Talk</i></b>
